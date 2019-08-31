@@ -11,7 +11,7 @@ Usage
 =====
 
     Download waveform data by start time and duration :
-    .. code-block::
+.. code-block::
 
        from FnetPy import Client
        from datetime import datetime
@@ -22,7 +22,7 @@ Usage
        client.get_waveform(starttime=starttime, end="duration", duration_in_seconds=duration_time)
 
     Download waveform data by start time and duration :
-    .. code-block::
+.. code-block::
 
        from FnetPy import Client
        from datetime import datetime

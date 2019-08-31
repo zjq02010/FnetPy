@@ -16,5 +16,15 @@ Usage
    from datetime import datetime
 
    starttime = datetime(2011, 1, 2, 5, 10)
+   duration_time = 300
    client = Client(username, password)
-   client.get_waveform(starttime, duration_in_seconds=300)
+   client.get_waveform(starttime=starttime, end="duration", duration_in_seconds=duration_time)
+
+.. code-block::
+   from FnetPy import Client
+   from datetime import datetime
+
+   starttime = datetime(2011, 1, 2, 5, 10, 0)
+   endtime = datetime(2011, 1, 15, 0, 0, 0)
+   client = Client(username, password)
+   client.get_waveform(starttime=starttime, end="time", endtime=endtime)

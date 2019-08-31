@@ -24,7 +24,7 @@ Usage
        
 
 
-    Download waveform data by start time and duration :
+    Download waveform data by start time and end time :
     
     ::
 

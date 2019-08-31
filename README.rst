@@ -21,7 +21,7 @@ Usage
        duration_time = 300
        client = Client(username, password)
        client.get_waveform(starttime=starttime, end="duration", duration_in_seconds=duration_time)
-
+.. code-block::
     Download waveform data by start time and duration :
     
 ::

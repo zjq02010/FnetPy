@@ -10,25 +10,25 @@ Install
 Usage
 =====
    Download waveform data by start time and duration :
-.. code-block::
+    .. code-block::
 
-   from FnetPy import Client
-   from datetime import datetime
+       from FnetPy import Client
+       from datetime import datetime
 
-   starttime = datetime(2011, 1, 2, 5, 10)
-   duration_time = 300
-   client = Client(username, password)
-   client.get_waveform(starttime=starttime, end="duration", duration_in_seconds=duration_time)
-.. code-block::
+       starttime = datetime(2011, 1, 2, 5, 10)
+       duration_time = 300
+       client = Client(username, password)
+       client.get_waveform(starttime=starttime, end="duration", duration_in_seconds=duration_time)
+ 
 
 
    Download waveform data by start time and duration :
 .. code-block::
 
-   from FnetPy import Client
-   from datetime import datetime
+       from FnetPy import Client
+       from datetime import datetime
 
-   starttime = datetime(2011, 1, 2, 5, 10, 0)
-   endtime = datetime(2011, 1, 15, 0, 0, 0)
-   client = Client(username, password)
-   client.get_waveform(starttime=starttime, end="time", endtime=endtime)
+       starttime = datetime(2011, 1, 2, 5, 10, 0)
+       endtime = datetime(2011, 1, 15, 0, 0, 0)
+       client = Client(username, password)
+       client.get_waveform(starttime=starttime, end="time", endtime=endtime)

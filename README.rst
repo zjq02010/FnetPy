@@ -20,7 +20,6 @@ Usage
    client = Client(username, password)
    client.get_waveform(starttime=starttime, end="duration", duration_in_seconds=duration_time)
 
-.. code-block::
    from FnetPy import Client
    from datetime import datetime
 
